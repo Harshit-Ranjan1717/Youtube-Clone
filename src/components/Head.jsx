@@ -71,6 +71,7 @@ const Head = () => {
       </div>
       <div className="col-span-10">
         <div>
+        
           <input
             className="w-1/2  border p-2 border-gray-600 rounded-l-full ml-36 bg-gray-400"
             type="text"
@@ -83,7 +84,7 @@ const Head = () => {
          <button onClick={handleSearchClick} className="border border-gray-600 p-2 rounded-r-full bg-gray-600 ">
             Search 🔍
           </button>
-          
+          <a className='px-5 py-2 m-2 bg-gradient-to-r from-cyan-400 to-blue-700 rounded-lg' href="/search">Go To Search </a>
         </div>
         {showSuggestions && (
           <div className="ml-40 absolute  bg-gray-500 py-2 px-5 w-[450px]  rounded-md shadow-2xl">
@@ -102,6 +103,7 @@ const Head = () => {
         )}
       </div>
       <div className="col-span-1">
+      
         <img
           className="h-8"
           height="60"
