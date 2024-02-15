@@ -10,9 +10,9 @@ const SideBar = () => {
     <div className='p-5 shadow-lg w-48 bg-gray-800'>
     
       <ul>
+        <li className='px-5 py-2  bg-gradient-to-r from-cyan-400 to-blue-700 rounded-lg'><Link to ="/search"> Search</Link></li>
         <li><Link to ="/"> Home</Link></li>
         <li>Shorts</li>
-        <li>Videos</li>
         <li>Live</li>
       </ul>
       <h1 className='font-bold pt-5'>Subscriptions</h1>
